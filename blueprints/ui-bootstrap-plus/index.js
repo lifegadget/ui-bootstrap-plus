@@ -16,13 +16,13 @@ module.exports = {
   afterInstall: function() {
     return this.addPackagesToProject([
       {name: 'ui-bootstrap', target: '*'},
-      {name: 'ember-tether', target: '0.3.1'},
-      {name: 'ui-button', target: '*'},
+      {name: 'ember-tether', target: '^0.3.1'},
+      {name: 'ui-button', target: '^2.0.0-beta.8'},
       {name: 'ui-icon', target: '*'},
       // {name: 'ui-tooltip', target: '*'},
       // {name: 'ui-dropdown', target: '*'},
-      {name: 'ember-cli-flash', target: '1.3.15'},
-      {name: 'ember-modal-dialog', target: '0.8.4'},
+      {name: 'ember-cli-flash', target: '^1.3.15'},
+      {name: 'ember-modal-dialog', target: '^0.8.4'},
     ]);
 	}
 
