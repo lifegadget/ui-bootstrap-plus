@@ -21,10 +21,9 @@ module.exports = {
       {name: 'ui-icon', target: '*'},
       // {name: 'ui-tooltip', target: '*'},
       // {name: 'ui-dropdown', target: '*'},
-      {name: 'ember-cli-flash', target: '1.13.15'},
+      {name: 'ember-cli-flash', target: '1.3.15'},
       {name: 'ember-modal-dialog', target: '0.8.4'},
     ]);
-
 	}
 
 };
