@@ -11,7 +11,7 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repository": "",
+  "repository": "git@github.com:lifegadget/ui-bootstrap-plus.git",
   "engines": {
     "node": ">= 0.10.0"
   },
